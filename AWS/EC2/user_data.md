@@ -8,7 +8,8 @@ systemctl start httpd
 systemctl enable httpd 
 echo "welcome to cloudblitz" > /var/www/html/index.html
 ````
-## Static Website Templates Link
+## Static Website Templates Download Link
 ````
-https://github.com/abhipraydhoble/templates.git
+yum install git -y
+git clone https://github.com/abhipraydhoble/templates.git
 ````
