@@ -1,3 +1,8 @@
+````
+https://www.kerno.io/blog/what-is-aws-vpc-tutorial
+````
+
+
 <img width="1557" height="733" alt="image" src="https://github.com/user-attachments/assets/791bc0c5-c230-4664-a353-428a60894c6c" />
 # create vpc
 <img width="1647" height="393" alt="image" src="https://github.com/user-attachments/assets/e5588891-e845-494b-806f-84252ecc0a3b" />
