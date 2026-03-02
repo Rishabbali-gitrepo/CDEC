@@ -1,3 +1,5 @@
+# Topic: ebs volume create and mount
+
 ## launch ec2 instance
 <img width="1932" height="726" alt="image" src="https://github.com/user-attachments/assets/14a23deb-b6f6-4373-b0a8-3fe5eb4e87c1" />
 
@@ -37,6 +39,23 @@ mount /dev/nvme1n1  /mnt
 ````
 umount /dev/nvme1n1
 ````
+---
+# Topic Disk Partition
+
+````
+fdisk  /dev/nvme1n1
+````
+<img width="1580" height="480" alt="image" src="https://github.com/user-attachments/assets/d6962a69-a3f6-4adb-91f3-455184007e3f" />
+**press m: for help**
+**press n: to create new partition**
+**press w: to save partition**
+<img width="803" height="746" alt="image" src="https://github.com/user-attachments/assets/b449f1d7-d4e1-4b9a-819f-5f5fd8ddf534" />
+<img width="1381" height="905" alt="image" src="https://github.com/user-attachments/assets/65c830cd-1f27-4019-8b23-edf71c8f2344" />
+**Assign file system to partition one**
+**mount partition one**
+<img width="1305" height="815" alt="image" src="https://github.com/user-attachments/assets/f51e23be-a98d-4a46-bd0d-77bd4e905305" />
+
+
 
 
 
