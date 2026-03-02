@@ -39,6 +39,8 @@ mount /dev/nvme1n1  /mnt
 ````
 umount /dev/nvme1n1
 ````
+
+
 ---
 # Topic Disk Partition
 
@@ -46,17 +48,28 @@ umount /dev/nvme1n1
 fdisk  /dev/nvme1n1
 ````
 <img width="1580" height="480" alt="image" src="https://github.com/user-attachments/assets/d6962a69-a3f6-4adb-91f3-455184007e3f" />
+
 **press m: for help**
+
 **press n: to create new partition**
+
 **press w: to save partition**
+
 <img width="803" height="746" alt="image" src="https://github.com/user-attachments/assets/b449f1d7-d4e1-4b9a-819f-5f5fd8ddf534" />
 <img width="1381" height="905" alt="image" src="https://github.com/user-attachments/assets/65c830cd-1f27-4019-8b23-edf71c8f2344" />
+
 **Assign file system to partition one**
+
 **mount partition one**
+
 <img width="1305" height="815" alt="image" src="https://github.com/user-attachments/assets/f51e23be-a98d-4a46-bd0d-77bd4e905305" />
 
 
 
+## Take a Snapshot 
+<img width="1591" height="616" alt="image" src="https://github.com/user-attachments/assets/13049f9a-96ab-436d-be3e-baadc946a1bb" />
+<img width="1918" height="725" alt="image" src="https://github.com/user-attachments/assets/0358b087-f9b2-4ae9-a1e5-048ad7617f4e" />
+<img width="1918" height="612" alt="image" src="https://github.com/user-attachments/assets/0f0884eb-2205-4d6c-989d-a37c628ef5d6" />
 
 
 
