@@ -1,20 +1,47 @@
-````
-https://www.kerno.io/blog/what-is-aws-vpc-tutorial
-````
 
+# Create VPC
+- give name and cidr block
+192.168.0.0/16
+<img width="1421" height="710" alt="image" src="https://github.com/user-attachments/assets/eabe7282-9413-4bc7-8d3c-434e5c7b7183" />
 
-<img width="1557" height="733" alt="image" src="https://github.com/user-attachments/assets/791bc0c5-c230-4664-a353-428a60894c6c" />
-# create vpc
-<img width="1647" height="393" alt="image" src="https://github.com/user-attachments/assets/e5588891-e845-494b-806f-84252ecc0a3b" />
-
----
 # create subnet
-<img width="1866" height="310" alt="image" src="https://github.com/user-attachments/assets/1546bc20-0005-46a1-9e1b-56d4f24e0c57" />
-# subnet-1
-<img width="1616" height="511" alt="image" src="https://github.com/user-attachments/assets/af12d2d8-73b7-4bc8-9cef-0da58194fc6b" />
-# subnet 2
-<img width="1601" height="437" alt="image" src="https://github.com/user-attachments/assets/7e2946c9-cb58-45cc-a301-2deaa45b68f6" />
+- select vpc
+- provide name
+- provide az 
+- cidr block
+- allow public access for subnet(subnet-->actions-->edit subnet setting-->auto assign public ip)
+<img width="1895" height="476" alt="image" src="https://github.com/user-attachments/assets/0284cfb2-a472-46a0-9efb-2f801fd444c5" />
+<img width="1240" height="560" alt="image" src="https://github.com/user-attachments/assets/e443c8a0-2fba-454e-9770-556920c23f25" />
+<img width="1622" height="577" alt="image" src="https://github.com/user-attachments/assets/3414a058-7acb-4921-b5f4-fd88e17be75b" />
+<img width="1352" height="456" alt="image" src="https://github.com/user-attachments/assets/7ee00f49-5ce1-41a2-accb-1869fe770a0c" />
+<img width="901" height="300" alt="image" src="https://github.com/user-attachments/assets/a97ce1d2-a93c-4787-b288-672d5c4896b4" />
+<img width="1432" height="242" alt="image" src="https://github.com/user-attachments/assets/5ccf90e2-9bb7-47fb-8001-f534c198124a" />
 
-<img width="1666" height="272" alt="image" src="https://github.com/user-attachments/assets/b16bec9f-638b-4d52-8cf0-11d6d35a84b8" />
 
+# create internet gateway
+- name
+- attach vpc
+<img width="1935" height="565" alt="image" src="https://github.com/user-attachments/assets/7359a20a-006f-4dd8-9ecc-4e13d1e59999" />
+<img width="1917" height="791" alt="image" src="https://github.com/user-attachments/assets/3c51cdb3-0576-4685-b6fb-0f529728f070" />
 
+# create nat gateway 
+<img width="1917" height="791" alt="image" src="https://github.com/user-attachments/assets/8de67d75-4edd-498d-93d8-f3bbc6e75798" />
+<img width="1851" height="702" alt="image" src="https://github.com/user-attachments/assets/b92eff56-fda6-458d-9526-937a82b399ec" />
+
+# create route table for public subnet
+- select vpc 
+- name
+- subnet association(add subnet)
+- route(add igwor nat)
+<img width="1902" height="638" alt="image" src="https://github.com/user-attachments/assets/7b35891d-c90b-4491-ac02-fb1e0e4ade12" />
+<img width="1897" height="666" alt="image" src="https://github.com/user-attachments/assets/9c9ccd75-a6e5-483e-8c28-e5f3b9c5df9c" />
+<img width="1907" height="492" alt="image" src="https://github.com/user-attachments/assets/11f61066-fba4-4480-b7b2-6e6415c07b0e" />
+---
+# create route table for private subnet
+- select vpc 
+- name
+- subnet association(add subnet)
+- route(add igwor nat)
+<img width="1916" height="582" alt="image" src="https://github.com/user-attachments/assets/b937f37d-a7ae-4c5b-aeaf-9892523876cc" />
+<img width="1916" height="687" alt="image" src="https://github.com/user-attachments/assets/c2fad372-bea3-4aad-84f3-d75a9704cc27" />
+<img width="1918" height="580" alt="image" src="https://github.com/user-attachments/assets/5b928be8-405e-4927-bd94-0a2a13a0ac5d" />
