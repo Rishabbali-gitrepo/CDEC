@@ -58,3 +58,4 @@
 - in order to access private vm from public instance we need a privte vm's key pair 
 <img width="1416" height="227" alt="image" src="https://github.com/user-attachments/assets/8553b7c5-f2f7-4bef-bdd6-87ad7dabaf07" />
 <img width="1105" height="492" alt="image" src="https://github.com/user-attachments/assets/ea60df92-a6f5-4db0-87e6-f3e330dd5642" />
+<img width="1885" height="482" alt="image" src="https://github.com/user-attachments/assets/c6b84e30-a9b7-48d9-9f0b-4d2fcaa067b9" />
