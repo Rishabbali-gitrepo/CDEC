@@ -25,4 +25,17 @@
 <img width="1651" height="210" alt="image" src="https://github.com/user-attachments/assets/d043c9db-6819-4fca-a154-96880e88f508" />
 
 
+### step6: install stress command on server
+````
+sudo yum install stress -y
+````
+<img width="1897" height="612" alt="image" src="https://github.com/user-attachments/assets/beada9c9-35e5-4edd-bc04-0c180fca5f71" />
+
+````
+stress
+````
+- copy command given in example:
+
+<img width="1286" height="689" alt="image" src="https://github.com/user-attachments/assets/7afc6863-7019-4d32-83b9-e887a795f595" />
+
 
