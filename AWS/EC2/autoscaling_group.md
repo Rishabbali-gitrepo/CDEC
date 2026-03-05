@@ -1,9 +1,11 @@
 <img width="946" height="467" alt="image" src="https://github.com/user-attachments/assets/3cd0524e-6c8c-48ab-b09a-4a11bb51b548" />
-Scaling is something that we need to consider thoroughly when designing a system. Scaling simply means increasing the capacity as needed when our system grows. 
+
+Scaling is something that we need to consider thoroughly when designing a system. 
+Scaling simply means increasing the capacity as needed when our system grows. 
 There are two ways to scale.
 
-**Vertical Scaling**
-**Horizontal Scaling**
+- **Vertical Scaling**
+- **Horizontal Scaling**
 
 
 # AutoScaling
