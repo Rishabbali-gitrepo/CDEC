@@ -35,7 +35,12 @@ sudo yum install stress -y
 stress
 ````
 - copy command given in example:
-
+````
+stress --cpu 10 --io 6 --vm 4  --vm-bytes 128M --timeout 90s &
+````
 <img width="1286" height="689" alt="image" src="https://github.com/user-attachments/assets/7afc6863-7019-4d32-83b9-e887a795f595" />
 
+### step7: new server created by autoscaling
+
+<img width="1581" height="341" alt="image" src="https://github.com/user-attachments/assets/b7b57bc2-96fe-4917-90dd-43cd0d05f6fe" />
 
