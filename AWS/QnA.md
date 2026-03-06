@@ -1,0 +1,32 @@
+#AWS
+Topic: EC2
+- what is ec2 service ?
+- instance types ?
+- purchasing options ?
+- diff instance states ?
+- instance status check/health check ?
+- what is ami ?
+- what is snapshot ?
+- diff ami vs snapshot 
+- ebs volume types ?
+- what is file system ?
+- temp mount vs permanent mount ?
+- what is firewall(security group)? explain inbound/outbound rules?
+- common ports use in sg ?
+- explain concept of ssh? 
+- explain load balancing ?
+- what are the diff types of load balancer ?
+- diff alb vs nlb ?
+- how autoscaling works?
+---
+Topic: VPC 
+- what is vpc ?
+- explain components of vpc ?
+- diff public vs private subnet 
+- what is eip ?
+- diff default vs custome vpc?
+- what is nat gw ?
+- nacl vs sg ?
+- what is jump server/bastion host ?
+- explain vpc peering ?
+- vpc cidr calculations ?
