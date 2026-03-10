@@ -12,3 +12,12 @@
 
 - click on create bucket
 <img width="1915" height="512" alt="image" src="https://github.com/user-attachments/assets/2656abfc-b0c8-484c-82df-b5c98e18c254" />
+
+---
+### download static website templates from my github repo
+
+````
+https://github.com/abhipraydhoble/templates.git
+````
+
+<img width="1910" height="801" alt="image" src="https://github.com/user-attachments/assets/ed4857d1-20f9-430c-bddf-e30e9c024359" />
