@@ -47,6 +47,9 @@ sudo ./aws/install
 ````
 aws configure
 ````
+- provide access key
+- provide secret key
+- provide region
 
 **5:Create Amazon EKS cluster using eksctl**
 ````
