@@ -54,9 +54,9 @@ aws configure
 ````
 **6: Log In Into EKS cluster**
 ````
-aws eks update-kubeconfig --name eks-oncdecb36
+aws eks update-kubeconfig --name eks-myntra
 ````
 **7: Delete EKS Cluster**
 ````
-eksctl delete cluster --name eks-oncdecb36 --region ap-southeast-1
+eksctl delete cluster --name eks-myntra --region ap-southeast-1
 ````
